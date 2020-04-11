@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.10-v3.5.3
+FROM bartixxx32/docker-baseimage-gui
 
 # Docker image version is provided via build arg.
 ARG DOCKER_IMAGE_VERSION=unknown
